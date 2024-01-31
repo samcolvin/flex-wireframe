@@ -1,0 +1,103 @@
+body{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 15px 50px;
+
+}
+
+.headerText{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.header ul{
+list-style-type: none;
+display: flex;
+justify-content: space-evenly;
+padding: 0;
+font-size: 18px;
+color: #F9FAF8;
+gap: 20px
+
+}
+
+
+.containerOne{
+    display: flex;
+    padding: 15px 50px;
+    background-color: #1F2937;
+    align-items: center;
+
+
+}
+.oneText{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.oneSubText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.containerTwo{
+    justify-content: center;
+    
+}
+.twoHeader{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 30px;
+}
+button{
+background-color: #3882f6;
+color: #E5E7EB;
+padding: 8px 16px;
+border-radius: 8px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+.containerThree{
+    text-align: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+}
+.containerFour{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourMainText{
+
+}
+.image{
+    height: auto;
+    width: 200px;
+    border-radius: 15px
+}
